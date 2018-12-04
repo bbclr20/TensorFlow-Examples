@@ -14,4 +14,4 @@ Implementing linear regression using TensorFlow. The training result is compared
 
 ### 02-TFRecords file
 
-Writing and reading TFRecords file.
+Writing and reading TFRecords file. Pseudo example of reading CIFAR10 dataset.
