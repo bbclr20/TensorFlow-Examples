@@ -19,3 +19,8 @@ Writing and reading TFRecords file. Pseudo example of reading CIFAR10 dataset.
 ### 03-Model and parameters
 
 Saving and loading the tensor with checkpoint. Reusing the variable in the specific scopes.
+
+
+### 04-Args
+
+Parsing the arguments with **argparse** and **tf.app.flags**.
