@@ -9,7 +9,7 @@ w2 = tf.get_variable("w2", shape=[4, 4],
 b = tf.Variable(tf.zeros((4,1)), name="b", dtype=tf.float32)
 
 x = tf.placeholder(shape=(4,1), dtype=tf.float32, name="x")
-y = w1 * x + b
+y = tf.matmul(w1, x) + b
 
 # create a saver
 saver = tf.train.Saver({"w1": w1})
