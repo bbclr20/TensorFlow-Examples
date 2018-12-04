@@ -1,0 +1,2 @@
+model_checkpoint_path: "w1.cpkt"
+all_model_checkpoint_paths: "w1.cpkt"
