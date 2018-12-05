@@ -43,6 +43,8 @@ def main(_):
     # start training
     with tf.Session() as sess:
         model = os.path.join(model_dir, model_file)
+        if not os.path.isdir(model_dir):
+            os.mkdir(model_dir)
 
         if tf.train.checkpoint_exists(model):
             print("Loading pre-trained model...")
