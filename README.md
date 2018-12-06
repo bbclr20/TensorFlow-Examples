@@ -32,4 +32,4 @@ Training MNIST dataset with a simple neural network.
 
 Visualizing the training model and data with TensorBoard.
 
-<img src="result/viz_mnist.png" width="60%">
+<img src="result/viz_mnist_pca.png" width="60%">
