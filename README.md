@@ -26,7 +26,7 @@ Parsing the arguments with **argparse** and **tf.app.flags**.
 
 ### 05-MNIST
 
-Training MNIST dataset with a simple neural network.
+Training MNIST dataset with a simple neural network and a simple cnn model.
 
 ### 07-TensorBoard
 

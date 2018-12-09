@@ -5,7 +5,7 @@ import os
 flags = tf.app.flags
 flags.DEFINE_string("data_dir", "../../data/mnist/", "Input data dir")
 flags.DEFINE_string("model_dir", "./checkpoint/", "Diretory to save the model")
-flags.DEFINE_string("model_file", "single_node.cpkt", "The filename of the model")
+flags.DEFINE_string("model_file", "mnist_nn.cpkt", "The filename of the model")
 flags.DEFINE_float("learning_rate", 0.5, "Learning rate")
 flags.DEFINE_integer("batch_size", 1000, "Training batch size")
 flags.DEFINE_integer("steps", 150, "Training steps")
