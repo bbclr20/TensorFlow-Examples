@@ -18,9 +18,9 @@ Implementing linear regression using TensorFlow. The training result is compared
 
 - Queue and Thread: Some examples of TensorFlow **FIFOQueue**, **QueueRunner**, **Coordinator**.
 
-- Simple data: Writing and reading TFRecords file. 
+- Simple data: Writing and reading TFRecord file. 
 
-- MNIST: Transfering MNIST dataset to tfrecords file.
+- MNIST: Transfering MNIST dataset to several TFRecord files and read these files with multiple threads.
 
 - CIFAR10: Pseudo example of reading CIFAR10 dataset.
 
