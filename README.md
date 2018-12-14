@@ -12,9 +12,17 @@ Python3.x
 
 Implementing linear regression using TensorFlow. The training result is compared with the result of **least squares regression** which is a standard approach of overdetermined systems.
 
-### 02-TFRecords file
+### 02-Preparing data
 
-Writing and reading TFRecords file. Pseudo example of reading CIFAR10 dataset.
+- Image processing: Using TensorFlow native functions to process the images.
+
+- Queue and Thread: Some examples of TensorFlow **FIFOQueue**, **QueueRunner**, **Coordinator**.
+
+- Simple data: Writing and reading TFRecords file. 
+
+- MNIST: Transfering MNIST dataset to tfrecords file.
+
+- CIFAR10: Pseudo example of reading CIFAR10 dataset.
 
 ### 03-Model and parameters
 
@@ -27,6 +35,10 @@ Parsing the arguments with **argparse** and **tf.app.flags**.
 ### 05-MNIST
 
 Training MNIST dataset with a simple neural network and a simple cnn model.
+
+### 06-Classic models
+
+Trying to implement the classic models without using high-level API.
 
 ### 07-TensorBoard
 
