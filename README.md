@@ -49,3 +49,18 @@ Visualizing the training model and data with TensorBoard.
 ### 08-TensorFlow Serving
 
 Using Tensorflow Serving to serve a model with docker.
+
+
+### 09-Distributed Training
+
+Training with multiple GPU devices or multiple nodes.
+
+- Device: Listing available devices and putting tensors to specific/available devices.
+
+- Single node multi-gpu: Training MNIST dataset on the machine which has multiple GPUs.
+    
+    - Adding **L2 regulization** to weights.
+
+    - Learning rate decay exponentially during the training process.
+
+    - Summarizing all scalars, trainable variables and visualizing the data.  
