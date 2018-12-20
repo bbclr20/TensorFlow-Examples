@@ -64,3 +64,15 @@ Training with multiple GPU devices or multiple nodes.
     - Learning rate decay exponentially during the training process.
 
     - Summarizing all scalars, trainable variables and visualizing the data.  
+
+### 11-GAN
+
+Trying to implement different kinds of GANs with TensorFlow.
+
+- GAN: Creating random normal datasets with specific mean and stddev. Training a GAN to generate the data which fits the random normal distribution. 
+
+<img src="result/fit_random_normal.png" width="80%">
+
+- GAN MNIST: Using a simple GAN to generate MNIST-like data. 
+
+<img src="result/gan_mnist.png" width="60%">
