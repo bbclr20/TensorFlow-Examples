@@ -79,8 +79,8 @@ if __name__ == "__main__":
         plt.legend()
 
         plt.figure("Loss")
-        plt.plot(g_losses, label="g_losses")
-        plt.plot(d_losses, "-ro", label="d_losses", mfc='none')
+        plt.plot(g_losses, label="g_losses")                    # ln2
+        plt.plot(d_losses, "-ro", label="d_losses", mfc='none') # ln4
         plt.xlabel("step")
         plt.legend()
         plt.show()
