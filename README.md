@@ -69,10 +69,20 @@ Training with multiple GPU devices or multiple nodes.
 
 Trying to implement different kinds of GANs with TensorFlow.
 
-- GAN: Creating random normal datasets with specific mean and stddev. Training a GAN to generate the data which fits the random normal distribution. 
+- GAN: Creating random normal datasets with specific mean and stddev. Training a GAN to generate the data which fits the random normal distribution[[1]](https://arxiv.org/abs/1406.2661). 
 
 <img src="result/fit_random_normal.png" width="80%">
 
-- GAN MNIST: Using a simple GAN to generate MNIST-like data. 
+- GAN MNIST: Using a simple GAN to generate MNIST-like data[[1]](https://arxiv.org/abs/1406.2661). 
 
 <img src="result/gan_mnist.png" width="60%">
+
+- DCGAN: Creating a DCGAN model which uses **tf.layers.conv2d_transpose** in the generator to generate/deconvolution image[[2]](https://arxiv.org/abs/1511.06434).
+
+<img src="result/dcgan_mnist.png" width="40%">
+
+# Reference
+
+1. <https://arxiv.org/abs/1406.2661>
+
+2. <https://arxiv.org/abs/1511.06434>
